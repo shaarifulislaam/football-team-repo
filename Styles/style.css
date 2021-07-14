@@ -473,7 +473,9 @@ footer p{
     .highlight-img {
         margin-top: 50px;
     }
-
+    .highlight-img img{
+        width: 85%;
+    }
     .news-section{
         width: 100%;
         margin: 0 auto;
