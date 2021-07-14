@@ -1,0 +1,373 @@
+/*-----------------------------------------------------------------------------------------------------------------
+                                                    Fonts 
+-----------------------------------------------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/*------------------------------------------------------------------------------------------------
+                                                    Header Style 
+------------------------------------------------------------------------------------------------*/
+.header-section{
+    background-color: #2D25A0;
+}
+
+.header-container {
+    width: 1160px;
+    height: 677px;
+    margin: 0 auto;
+}
+.header-container:hover .goal-shot-container-img{
+    transform: translateX(-10%) rotate(20deg);
+}
+/*------------------------------------------------------------------------------------------------
+                                            Navigation Bar Style
+------------------------------------------------------------------------------------------------*/
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+ul {
+    display: flex;
+    padding-left: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffff;
+    margin-right: 36px;
+}
+li a:hover {
+    color: #E02C6D;
+}
+
+/*------------------------------------------------------------------------------------------------
+                                                    Header Style 
+------------------------------------------------------------------------------------------------*/
+
+.section-title {
+    font-size: 48px;
+    margin: 15px 0;
+} 
+
+.section-details {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6C6C;
+    padding-bottom: 30px;
+}
+.nav-btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #ffff;
+    background-color: #E02C6D;
+    font-size: 24px;
+    font-weight: 400;
+    
+    transition: 0.3s ease-in-out;
+}
+.nav-btn:hover {
+    background-color: #00acee;
+    
+}
+.goal-shot-container {
+    display: flex;
+    align-items: center;
+    margin: 50px 0 80px;
+}
+
+.goal-shot-container-title {
+    width: 50%;
+    text-align: left;
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.goal-shot-container-img {
+    width: 50%;
+}
+
+.goal-shot-container-img img {
+    height: 438px;
+    width: 556px;
+    transition:  10 ease-in-out;
+}
+
+.goal-shot-container-img img:hover {
+    transform: translateX(-5%) rotate(20deg);
+}
+
+
+/*------------------------------------------------------------------------------------------------
+                                Players Section Style 
+------------------------------------------------------------------------------------------------*/
+
+.player-details {
+    margin-top: 70px;
+}
+
+.all-player-details {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.player {
+    box-shadow: 2px 2px 10px rgba(190, 190, 190, 0.425);
+    border-radius: 5px;
+}
+
+.player-img img {
+    width: 300px;
+    height: 256px;
+    margin: 4px 4px 0;
+}
+
+.player-info{
+    padding: 0 8px;
+}
+
+.player-info h3 {
+    margin: 10px 0;
+    font-size: 28px    ;
+    font-weight: 700;
+    transition: 00.2s ease-in;
+     cursor: pointer;
+}
+
+.player-info h3:hover {
+    color: #E02C6D;
+}
+
+.player-info p {
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+/*-----------------------------------------------------------------------------------------------------------------                                          Highlight Section Style  
+-----------------------------------------------------------------------------------------------------------------*/
+.higlight-section {
+    margin-top: 160px;
+}
+
+.all-highlight {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.highlight-details {
+    display: flex;
+    align-items: center;
+}
+
+.highlight-info {
+    width: 466px;
+    
+}
+.highlight-info h1{
+    font-size: 46px;
+}
+.highlight-info p{
+    font-size: 16px;
+}
+
+
+.highlight-img {
+    width: 567px;
+    height: 427px;
+    margin-left: 69px;
+}
+
+.highlight-img img {
+    width: 567px;
+    height: 427px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------
+                                              News Section Style
+ ----------------------------------------------------------------------------------------------------------------*/
+ .news-section{
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 60px;
+    
+ }
+ .news-section h1 
+ {
+     font-size: 48px;
+   
+ }
+ .news-section h1:hover{
+    color: #E02C6D;
+ }
+ .new-details{
+     display: flex;
+     
+ }
+ .news{
+     display: flex;
+    padding: 10px;
+     flex-direction: column;
+ }
+ .news-title p{
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 400px;
+ }
+ .news-title a{
+    text-decoration: none;
+    font-size: 1.7em;
+    color: #6C6C6C;
+ }
+ .news-title a:hover{
+    color: #00acee;
+ }
+ .news-img img{
+    width: 567px;
+    height: 427px;
+ }
+
+
+
+ 
+ 
+
+
+/*-----------------------------------------------------------------------------------------------------------------
+                                              Contact Section Style
+ ----------------------------------------------------------------------------------------------------------------*/          
+.contact-details{
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.contact-title{
+    font-size: 48px;
+}
+.contact-title h2:hover{
+    color: #E02C6D;
+}
+.contact-title p{
+    margin-top: 0;
+    color: #6C6C6C;
+    font-size: 0.5em;
+    font-weight: 400;
+}
+input{
+    border: 1px solid lightgray;
+    font-size: 1.7em;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+textarea{
+    font-size: 1.7em;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 1px solid lightgray;
+}
+span{
+    font-size: 1.3em;
+}
+.form-btn{
+    border-radius: 20px; 
+    border: 1px solid white ;
+}
+
+
+
+/*------------------------------------------------------------------------------------------------
+                                Logo and Icon Style 
+------------------------------------------------------------------------------------------------*/
+.logo-and-icon-section {
+    margin-top: 160px;
+}
+.all-logo-section {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 480px;
+    height: 110px;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.all-icon {
+    margin: 40px 0 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.all-icon i {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #969BAB;
+    background-color: #d1d1d1;
+    padding: 15px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+
+.all-icon .fa-facebook{
+    color: #4267B2;
+}
+.all-icon .fa-instagram{
+    color:  #C13584;
+}
+.all-icon .fa-twitter{
+    color: #00acee;
+}
+.all-icon .fa-youtube{
+    color: #FF0000;
+}
+.all-icon .fa-facebook:hover {
+    color: #ffff;
+     background-color: #4267B2; 
+}
+.all-icon .fa-instagram:hover {
+    color: #ffff;
+     background-color: #C13584; 
+}
+.all-icon .fa-twitter:hover {
+    color: #ffff;
+     background-color: #00acee; 
+}
+.all-icon .fa-youtube:hover {
+    color: #ffff;
+     background-color: #FF0000; 
+}
+footer p{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 45px;
+}
