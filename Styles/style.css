@@ -1,6 +1,8 @@
 /*-----------------------------------------------------------------------------------------------------------------
                                                     Fonts 
 -----------------------------------------------------------------------------------------------------------------*/
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 body{
@@ -26,6 +28,8 @@ body{
 /*------------------------------------------------------------------------------------------------
                                             Navigation Bar Style
 ------------------------------------------------------------------------------------------------*/
+
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -166,6 +170,9 @@ li a:hover {
 }
 /*-----------------------------------------------------------------------------------------------------------------                                          Highlight Section Style  
 -----------------------------------------------------------------------------------------------------------------*/
+
+
+
 .higlight-section {
     margin-top: 160px;
 }
@@ -206,6 +213,9 @@ li a:hover {
 /*-----------------------------------------------------------------------------------------------------------------
                                               News Section Style
  ----------------------------------------------------------------------------------------------------------------*/
+ 
+ 
+ 
  .news-section{
     width: 1100px;
     margin: 0 auto;
@@ -248,11 +258,6 @@ li a:hover {
  }
 
 
-
- 
- 
-
-
 /*-----------------------------------------------------------------------------------------------------------------
                                               Contact Section Style
  ----------------------------------------------------------------------------------------------------------------*/          
@@ -282,13 +287,13 @@ input{
     padding-left: 10px;
 }
 textarea{
-    font-size: 1.7em;
+    font-size: 1.9em;
     border-radius: 10px;
     padding-left: 10px;
     border: 1px solid lightgray;
 }
 span{
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
 .form-btn{
     border-radius: 20px; 
@@ -375,18 +380,16 @@ footer p{
 
 
 
-/* Responsive */
 
-/* Resposive for mobile */
+/*-----------------------------------------------------------------------------------------------------------------
+                                        Resposive for mobile 
+-----------------------------------------------------------------------------------------------------------------*/
+
+
 @media screen and (max-width: 767px) {
     body {
         width: 100%;
         margin: 0;
-    }
-
-
-    .section-title {
-        font-size: 40px;
     }
 
     .nav-btn {
@@ -394,8 +397,7 @@ footer p{
         padding: 5px 10pxs;
     }
 
-
-    /* Header Style */
+   
     .header-section {
         width: 100%;
         background-color: #2D25A0;
@@ -434,7 +436,7 @@ footer p{
         width: 356px;
     }
 
-    /* Player section Style */
+    
     .all-player-details {
         width: 100%;
         margin: 0 auto;
@@ -447,7 +449,7 @@ footer p{
     }
    
 
-    /* Highlight section style */
+ 
     .higlight-section {
         margin-top: 60px;
     }
@@ -500,22 +502,20 @@ footer p{
          font-size: 36px;
      }
      .contact-title p{
-         width: 90%;
-         text-align: justify;
-         padding: 10px;
-     }
+        width: 100%;
+        font-size: 12px;
+        text-align: center;
+     
+    }
      input{
          width: 80%;
      }
      textarea{
-        font-size: 16pxem;
+        font-size: 16px;
         width: 80%;
         
     }
     
-    
-
-    /* Logo section style */
     .logo-and-icon-section {
         margin-top: 60px;
     }
@@ -532,6 +532,142 @@ footer p{
         width: 100%;
         height: 100%;
     }
-    
+}
 
+
+/*-----------------------------------------------------------------------------------------------------------------
+                                        Resposive for Tab 
+-----------------------------------------------------------------------------------------------------------------*/
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    body {
+        width: 100%;
+        margin: 0;
+    }
+
+
+    .header {
+        width: 100%;
+        background-color: #2D25A0;
+    }
+
+    .header-container {
+        width: 98%;
+        height: auto;
+        margin: 0  auto;
+    }
+
+    .nav {
+        padding-top: 20px;
+    }
+
+    li a{
+        font-size: 15px;
+    }
+
+    .goal-shot-container {
+        margin-top: 0;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .goal-shot-container-title {
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    .goal-shot-container-img {
+        display: flex;
+        justify-content: center;
+        padding: 50px 0;
+    }
+
+
+    .all-player-details {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .players {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 50px;
+    }
+
+    .higlight-section {
+        margin-top: 60px;
+    }
+
+    .all-highlight {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .highlight-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .highlight-info {
+        text-align: center;
+    }
+
+    .highlight-img {
+        margin-top: 50px;
+    }
+    .news{
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px;
+    }
+    .news-img img{
+        width: 100%
+     }
+     .contact-details{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .contact-title h2{
+        font-size: 36px;
+    }
+    .contact-title p{
+       width: 100%;
+       font-size: 16px;
+       text-align: center;
+    
+   }
+   input{
+    width: 90%;
+}
+   textarea{
+    font-size: 16px;
+    width: 80%;
+    
+}
+
+    .logo-and-icon-section {
+        margin-top: 60px;
+    }
+
+    .all-logo-section {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .logo {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .logo img {
+        width: 100%;
+        height: 100%;
+    }
+  
+    
 }
